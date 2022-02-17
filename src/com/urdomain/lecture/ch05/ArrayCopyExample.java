@@ -7,7 +7,7 @@ public class ArrayCopyExample {
 		int[] arr2 = new int[5];
 		
 		
-		System.arraycopy(arr1, 0, arr2, 0, arr1.length-1);
+		System.arraycopy(arr1, 0, arr2, 0, arr1.length);
 		
 		for(int j=0; j<arr2.length; j++) {
 			
