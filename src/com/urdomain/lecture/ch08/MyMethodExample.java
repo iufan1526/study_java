@@ -1,0 +1,24 @@
+package com.urdomain.lecture.ch08;
+
+public class MyMethodExample {
+
+	public static void main(String[] args) {
+		
+		MyInterface myInterface = new MyClassA();
+		
+		myInterface.method1();
+		myInterface.method2();
+		
+		
+		
+		MyInterface myInterface2 = new MyClassB();
+		
+		myInterface2.method1();
+		myInterface2.method2();
+		
+		
+		
+
+	}
+
+}
